@@ -1,0 +1,153 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	min-width: 1200px;
+	font-family: 'font', sans-serif;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.btn-reset {
+	padding: 0;
+	border: none;
+	border-color: transparent;
+	cursor: pointer;
+}
+
+.container {
+	width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.section-header {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.section-offset {
+padding-bottom: 70px;
+}
+
+/* header */
+
+.header {
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.header-block-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.header-logo-and-number {
+	display: flex;
+	align-items: center;
+}
+
+.header-phone {
+	margin-left: 40px;
+}
+
+.header-nav {
+	display: flex;
+	padding: 14px 45px;
+	justify-content: space-between;
+}
+
+.header-list {
+	display: flex;
+}
+
+.header-list-item:not(:last-child) {
+	margin-right: 45px;
+}
+
+/* special-offers */
+
+.tour-list {
+	display: flex;
+}
+
+.tour-list-left-side {
+	margin-right: 23px;
+}
+
+.tour-list-item-left:not(:last-child) {
+	margin-bottom: 23px;
+}
+
+/* services */
+
+.services-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.services-list-item {
+	max-width: 573px;
+}
+
+.services-list-item:nth-child(odd) {
+	margin-right: 23px;
+}
+
+/* advantages */
+
+.advantages-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.advantages-list-item {
+ max-width: 275px;
+}
+
+.advantages-list-item:not(:nth-child(4n)) {
+	margin-right: 23px;	
+}
+
+/* dislocation */
+
+.dislocation-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dislocation-list-item{
+	display: flex;
+	flex-direction: column;
+	max-width: 374px;
+}
+
+.dislocation-list-item:not(:nth-child(3n)) {
+	margin-right: 23px;	
+}
+
+.hotel-number-btn {
+	align-self: flex-start;
+}
